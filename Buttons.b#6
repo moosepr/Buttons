@@ -166,6 +166,10 @@
 </layers>
 <board>
 <plain>
+<wire x1="1.27" y1="92.71" x2="73.406" y2="92.71" width="0.254" layer="20"/>
+<wire x1="73.406" y1="92.71" x2="73.406" y2="-0.254" width="0.254" layer="20"/>
+<wire x1="73.406" y1="-0.254" x2="1.27" y2="-0.254" width="0.254" layer="20"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="92.71" width="0.254" layer="20"/>
 </plain>
 <libraries>
 <library name="RPI-Zero">
@@ -1608,71 +1612,127 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="PI1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="3.556" y="78.9305" rot="MR180"/>
-<element name="R1" library="resistor" package="R0805" value="100" x="3.7465" y="42.9895" rot="MR90"/>
-<element name="U$2" library="ili9341" package="ILI9341-2.8" value="ILI9341-2.8" x="35.941" y="54.8005"/>
-<element name="U$1" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="66.1035" y="22.733"/>
-<element name="U$3" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="3.048" y="22.606"/>
-<element name="U$4" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="61.214" y="22.7965"/>
-<element name="U$5" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="56.261" y="22.86"/>
-<element name="U$6" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="51.308" y="22.9235"/>
-<element name="U$7" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="46.482" y="22.7965"/>
-<element name="U$8" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="41.7195" y="22.733"/>
-<element name="U$9" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="36.8935" y="22.6695"/>
-<element name="U$10" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="32.0675" y="22.5425"/>
-<element name="U$11" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="27.305" y="22.479"/>
-<element name="U$12" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="22.5425" y="22.479"/>
-<element name="U$13" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="17.5895" y="22.606"/>
-<element name="U$14" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="12.7635" y="22.6695"/>
-<element name="U$15" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="8.001" y="22.606"/>
+<element name="PI1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="4.826" y="90.3605" rot="MR180"/>
+<element name="R1" library="resistor" package="R0805" value="100" x="5.0165" y="54.4195" rot="MR90"/>
+<element name="U$2" library="ili9341" package="ILI9341-2.8" value="ILI9341-2.8" x="37.211" y="66.2305"/>
+<element name="U$1" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="67.3735" y="34.163"/>
+<element name="U$3" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="4.318" y="34.036"/>
+<element name="U$4" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="62.484" y="34.2265"/>
+<element name="U$5" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="57.531" y="34.29"/>
+<element name="U$6" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="52.578" y="34.3535"/>
+<element name="U$7" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="47.752" y="34.2265"/>
+<element name="U$8" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="42.9895" y="34.163"/>
+<element name="U$9" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="38.1635" y="34.0995"/>
+<element name="U$10" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="33.3375" y="33.9725"/>
+<element name="U$11" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="28.575" y="33.909"/>
+<element name="U$12" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="23.8125" y="33.909"/>
+<element name="U$13" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="18.8595" y="34.036"/>
+<element name="U$14" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="14.0335" y="34.0995"/>
+<element name="U$15" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="9.271" y="34.036"/>
+<element name="U$16" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="4.318" y="26.162"/>
+<element name="U$17" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="9.398" y="26.162"/>
+<element name="U$18" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="13.97" y="26.162"/>
+<element name="U$19" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="18.542" y="26.162"/>
+<element name="U$20" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="23.622" y="26.162"/>
+<element name="U$21" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="48.006" y="26.416"/>
+<element name="U$22" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="43.434" y="26.416"/>
+<element name="U$23" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="38.1" y="26.416"/>
+<element name="U$24" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="33.02" y="25.908"/>
+<element name="U$25" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="28.194" y="26.162"/>
+<element name="U$26" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="52.578" y="26.416"/>
+<element name="U$27" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="57.658" y="26.162"/>
+<element name="U$28" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="62.484" y="26.162"/>
+<element name="U$29" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="67.818" y="26.162"/>
+<element name="U$30" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="4.318" y="18.288"/>
+<element name="U$31" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="9.652" y="18.288"/>
+<element name="U$32" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="13.97" y="18.288"/>
+<element name="U$33" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="18.542" y="18.288"/>
+<element name="U$34" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="23.622" y="18.542"/>
+<element name="U$35" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="43.434" y="18.288"/>
+<element name="U$36" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="48.006" y="18.288"/>
+<element name="U$37" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="37.846" y="18.542"/>
+<element name="U$38" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="33.02" y="18.034"/>
+<element name="U$39" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="28.194" y="18.288"/>
+<element name="U$40" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="52.578" y="18.288"/>
+<element name="U$41" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="57.404" y="18.542"/>
+<element name="U$42" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="62.484" y="18.542"/>
+<element name="U$43" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="67.818" y="18.034"/>
+<element name="U$44" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="4.318" y="10.414"/>
+<element name="U$45" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="9.652" y="10.414"/>
+<element name="U$46" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="13.716" y="10.414"/>
+<element name="U$47" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="18.288" y="10.414"/>
+<element name="U$48" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="23.876" y="10.414"/>
+<element name="U$49" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="28.448" y="10.414"/>
+<element name="U$50" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="33.02" y="10.414"/>
+<element name="U$51" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="4.064" y="2.794"/>
+<element name="U$52" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="9.652" y="2.54"/>
+<element name="U$53" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="13.716" y="3.048"/>
+<element name="U$54" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="18.034" y="2.794"/>
+<element name="U$55" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="23.876" y="2.794"/>
+<element name="U$56" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="28.448" y="2.794"/>
+<element name="U$57" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="33.02" y="2.794"/>
+<element name="U$58" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="38.1" y="2.794"/>
+<element name="U$59" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="43.942" y="2.794"/>
+<element name="U$60" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="48.26" y="2.794"/>
+<element name="U$61" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="52.578" y="2.794"/>
+<element name="U$62" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="57.404" y="3.302"/>
+<element name="U$63" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="62.738" y="3.048"/>
+<element name="U$64" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="67.818" y="2.794"/>
+<element name="U$65" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="38.1" y="10.668"/>
+<element name="U$66" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="43.688" y="10.414"/>
+<element name="U$67" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="48.006" y="10.414"/>
+<element name="U$68" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="52.578" y="10.414"/>
+<element name="U$69" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="57.404" y="10.414"/>
+<element name="U$70" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="62.738" y="10.414"/>
+<element name="U$71" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="67.818" y="10.16"/>
 </elements>
 <signals>
 <signal name="GND">
 <contactref element="U$2" pad="P$1"/>
 <contactref element="U$2" pad="P$8"/>
 <contactref element="PI1" pad="39"/>
-<wire x1="17.941" y1="56.0005" x2="60.198" y2="53.6575" width="0" layer="19" extent="1-16"/>
-<wire x1="17.941" y1="61.6005" x2="17.941" y2="56.0005" width="0" layer="19" extent="1-1"/>
+<wire x1="19.211" y1="67.4305" x2="61.468" y2="65.0875" width="0" layer="19" extent="1-16"/>
+<wire x1="19.211" y1="73.0305" x2="19.211" y2="67.4305" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="PI1" pad="22"/>
 <contactref element="U$2" pad="P$2"/>
-<wire x1="17.941" y1="60.8005" x2="37.338" y2="51.1175" width="0" layer="19" extent="1-16"/>
+<wire x1="19.211" y1="72.2305" x2="38.608" y2="62.5475" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$2">
 <contactref element="PI1" pad="23"/>
 <contactref element="U$2" pad="P$3"/>
-<wire x1="17.941" y1="60.0005" x2="39.878" y2="53.6575" width="0" layer="19" extent="1-16"/>
+<wire x1="19.211" y1="71.4305" x2="41.148" y2="65.0875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="PI1" pad="19"/>
 <contactref element="U$2" pad="P$6"/>
-<wire x1="17.941" y1="57.6005" x2="34.798" y2="53.6575" width="0" layer="19" extent="1-16"/>
+<wire x1="19.211" y1="69.0305" x2="36.068" y2="65.0875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$4">
 <contactref element="PI1" pad="21"/>
 <contactref element="U$2" pad="P$7"/>
-<wire x1="17.941" y1="56.8005" x2="37.338" y2="53.6575" width="0" layer="19" extent="1-16"/>
+<wire x1="19.211" y1="68.2305" x2="38.608" y2="65.0875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$5">
 <contactref element="R1" pad="1"/>
 <contactref element="U$2" pad="P$10"/>
-<wire x1="3.7465" y1="42.0395" x2="17.941" y2="54.4005" width="0" layer="19" extent="1-16"/>
+<wire x1="5.0165" y1="53.4695" x2="19.211" y2="65.8305" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="PI1" pad="18"/>
 <contactref element="U$2" pad="P$4"/>
-<wire x1="17.941" y1="59.2005" x2="32.258" y2="51.1175" width="0" layer="19" extent="1-16"/>
+<wire x1="19.211" y1="70.6305" x2="33.528" y2="62.5475" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$7">
 <contactref element="PI1" pad="24"/>
 <contactref element="U$2" pad="P$5"/>
-<wire x1="17.941" y1="58.4005" x2="39.878" y2="51.1175" width="0" layer="19" extent="1-16"/>
+<wire x1="19.211" y1="69.8305" x2="41.148" y2="62.5475" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="5V0@2">
 <contactref element="PI1" pad="2"/>
 <contactref element="PI1" pad="4"/>
-<wire x1="11.938" y1="51.1175" x2="14.478" y2="51.1175" width="0" layer="19" extent="16-16"/>
+<wire x1="13.208" y1="62.5475" x2="15.748" y2="62.5475" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$8">
 <contactref element="PI1" pad="37"/>
@@ -1722,10 +1782,10 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="P$12"/>
 <contactref element="U$2" pad="P$14"/>
 <contactref element="U$2" pad="P$13"/>
-<wire x1="17.941" y1="53.6005" x2="22.098" y2="53.6575" width="0" layer="19" extent="1-16"/>
-<wire x1="17.941" y1="52.8005" x2="17.941" y2="53.6005" width="0" layer="19" extent="1-1"/>
-<wire x1="17.941" y1="52.0005" x2="17.941" y2="52.8005" width="0" layer="19" extent="1-1"/>
-<wire x1="17.941" y1="51.2005" x2="17.941" y2="52.0005" width="0" layer="19" extent="1-1"/>
+<wire x1="19.211" y1="65.0305" x2="23.368" y2="65.0875" width="0" layer="19" extent="1-16"/>
+<wire x1="19.211" y1="64.2305" x2="19.211" y2="65.0305" width="0" layer="19" extent="1-1"/>
+<wire x1="19.211" y1="63.4305" x2="19.211" y2="64.2305" width="0" layer="19" extent="1-1"/>
+<wire x1="19.211" y1="62.6305" x2="19.211" y2="63.4305" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND@7">
 <contactref element="PI1" pad="20"/>
@@ -1733,10 +1793,10 @@ design rules under a new name.</description>
 <contactref element="PI1" pad="30"/>
 <contactref element="PI1" pad="34"/>
 <contactref element="PI1" pad="6"/>
-<wire x1="47.498" y1="51.1175" x2="52.578" y2="51.1175" width="0" layer="19" extent="16-16"/>
-<wire x1="34.798" y1="51.1175" x2="47.498" y2="51.1175" width="0" layer="19" extent="16-16"/>
-<wire x1="27.178" y1="51.1175" x2="34.798" y2="51.1175" width="0" layer="19" extent="16-16"/>
-<wire x1="17.018" y1="51.1175" x2="27.178" y2="51.1175" width="0" layer="19" extent="16-16"/>
+<wire x1="48.768" y1="62.5475" x2="53.848" y2="62.5475" width="0" layer="19" extent="16-16"/>
+<wire x1="36.068" y1="62.5475" x2="48.768" y2="62.5475" width="0" layer="19" extent="16-16"/>
+<wire x1="28.448" y1="62.5475" x2="36.068" y2="62.5475" width="0" layer="19" extent="16-16"/>
+<wire x1="18.288" y1="62.5475" x2="28.448" y2="62.5475" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$32">
 <contactref element="PI1" pad="28"/>
@@ -1746,9 +1806,9 @@ design rules under a new name.</description>
 <contactref element="PI1" pad="17"/>
 <contactref element="U$2" pad="P$9"/>
 <contactref element="PI1" pad="1"/>
-<wire x1="17.941" y1="55.2005" x2="32.258" y2="53.6575" width="0" layer="19" extent="1-16"/>
-<wire x1="11.938" y1="53.6575" x2="17.941" y2="55.2005" width="0" layer="19" extent="1-16"/>
-<wire x1="3.7465" y1="43.9395" x2="11.938" y2="53.6575" width="0" layer="19" extent="16-16"/>
+<wire x1="19.211" y1="66.6305" x2="33.528" y2="65.0875" width="0" layer="19" extent="1-16"/>
+<wire x1="13.208" y1="65.0875" x2="19.211" y2="66.6305" width="0" layer="19" extent="1-16"/>
+<wire x1="5.0165" y1="55.3695" x2="13.208" y2="65.0875" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 </board>
