@@ -4410,6 +4410,26 @@ JST PH 2-pin thru-home side entry</description>
 <part name="E8" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
 <part name="E9" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
 <part name="E0" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="F1" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="F2" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="F3" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="F4" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="F5" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="F6" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="F7" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="F8" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="F9" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="F0" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="G1" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="G2" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="G3" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="G4" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="G5" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="G6" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="G7" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="G8" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="G9" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
+<part name="G0" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4478,6 +4498,26 @@ JST PH 2-pin thru-home side entry</description>
 <instance part="E8" gate="G$1" x="132.08" y="17.78"/>
 <instance part="E9" gate="G$1" x="144.78" y="17.78"/>
 <instance part="E0" gate="G$1" x="30.48" y="17.78"/>
+<instance part="F1" gate="G$1" x="43.18" y="2.54"/>
+<instance part="F2" gate="G$1" x="55.88" y="2.54"/>
+<instance part="F3" gate="G$1" x="68.58" y="2.54"/>
+<instance part="F4" gate="G$1" x="81.28" y="2.54"/>
+<instance part="F5" gate="G$1" x="93.98" y="2.54"/>
+<instance part="F6" gate="G$1" x="106.68" y="2.54"/>
+<instance part="F7" gate="G$1" x="119.38" y="2.54"/>
+<instance part="F8" gate="G$1" x="132.08" y="2.54"/>
+<instance part="F9" gate="G$1" x="144.78" y="2.54"/>
+<instance part="F0" gate="G$1" x="30.48" y="2.54"/>
+<instance part="G1" gate="G$1" x="43.18" y="-12.7"/>
+<instance part="G2" gate="G$1" x="55.88" y="-12.7"/>
+<instance part="G3" gate="G$1" x="68.58" y="-12.7"/>
+<instance part="G4" gate="G$1" x="81.28" y="-12.7"/>
+<instance part="G5" gate="G$1" x="93.98" y="-12.7"/>
+<instance part="G6" gate="G$1" x="106.68" y="-12.7"/>
+<instance part="G7" gate="G$1" x="119.38" y="-12.7"/>
+<instance part="G8" gate="G$1" x="132.08" y="-12.7"/>
+<instance part="G9" gate="G$1" x="144.78" y="-12.7"/>
+<instance part="G0" gate="G$1" x="30.48" y="-12.7"/>
 </instances>
 <busses>
 </busses>
@@ -4930,6 +4970,80 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="147.32" y1="12.7" x2="147.32" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="ROW1"/>
+<wire x1="-48.26" y1="-5.08" x2="-48.26" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="99.06" x2="-33.02" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-5.08" x2="134.62" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="F9" gate="G$1" pin="P$2"/>
+<wire x1="134.62" y1="-5.08" x2="121.92" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="-5.08" x2="109.22" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-5.08" x2="96.52" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-5.08" x2="83.82" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-5.08" x2="71.12" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-5.08" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-5.08" x2="45.72" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-5.08" x2="33.02" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-5.08" x2="-48.26" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-2.54" x2="147.32" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="F8" gate="G$1" pin="P$2"/>
+<wire x1="134.62" y1="-2.54" x2="134.62" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="F7" gate="G$1" pin="P$2"/>
+<wire x1="121.92" y1="-2.54" x2="121.92" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="F6" gate="G$1" pin="P$2"/>
+<wire x1="109.22" y1="-2.54" x2="109.22" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="F5" gate="G$1" pin="P$2"/>
+<wire x1="96.52" y1="-2.54" x2="96.52" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="F4" gate="G$1" pin="P$2"/>
+<wire x1="83.82" y1="-2.54" x2="83.82" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="F3" gate="G$1" pin="P$2"/>
+<wire x1="71.12" y1="-2.54" x2="71.12" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="F2" gate="G$1" pin="P$2"/>
+<wire x1="58.42" y1="-2.54" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="F1" gate="G$1" pin="P$2"/>
+<wire x1="45.72" y1="-2.54" x2="45.72" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="F0" gate="G$1" pin="P$2"/>
+<wire x1="33.02" y1="-2.54" x2="33.02" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="ROW0"/>
+<wire x1="-50.8" y1="-20.32" x2="-50.8" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="101.6" x2="-33.02" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-20.32" x2="134.62" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="G0" gate="G$1" pin="P$2"/>
+<wire x1="134.62" y1="-20.32" x2="121.92" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="-20.32" x2="109.22" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-20.32" x2="96.52" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-20.32" x2="83.82" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-20.32" x2="71.12" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-20.32" x2="58.42" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-20.32" x2="45.72" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-20.32" x2="33.02" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-20.32" x2="-50.8" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-17.78" x2="33.02" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G$1" pin="P$2"/>
+<wire x1="45.72" y1="-17.78" x2="45.72" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="G2" gate="G$1" pin="P$2"/>
+<wire x1="58.42" y1="-17.78" x2="58.42" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="G3" gate="G$1" pin="P$2"/>
+<wire x1="71.12" y1="-17.78" x2="71.12" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="G4" gate="G$1" pin="P$2"/>
+<wire x1="83.82" y1="-17.78" x2="83.82" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="G5" gate="G$1" pin="P$2"/>
+<wire x1="96.52" y1="-17.78" x2="96.52" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="G6" gate="G$1" pin="P$2"/>
+<wire x1="109.22" y1="-17.78" x2="109.22" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="G7" gate="G$1" pin="P$2"/>
+<wire x1="121.92" y1="-17.78" x2="121.92" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="G8" gate="G$1" pin="P$2"/>
+<wire x1="134.62" y1="-17.78" x2="134.62" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="G9" gate="G$1" pin="P$2"/>
+<wire x1="147.32" y1="-17.78" x2="147.32" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="COL9"/>
@@ -4940,6 +5054,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="25.4" y1="58.42" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="43.18" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="27.94" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="12.7" x2="25.4" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-2.54" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="58.42" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C0" gate="G$1" pin="P$1"/>
 <wire x1="27.94" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
@@ -4947,6 +5063,10 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="25.4" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="E0" gate="G$1" pin="P$1"/>
 <wire x1="27.94" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="F0" gate="G$1" pin="P$1"/>
+<wire x1="27.94" y1="-2.54" x2="25.4" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="G0" gate="G$1" pin="P$1"/>
+<wire x1="27.94" y1="-17.78" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="A0" gate="G$1" pin="P$1"/>
 <wire x1="27.94" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -4961,6 +5081,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="38.1" y1="58.42" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="43.18" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="27.94" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="12.7" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-2.54" x2="38.1" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="P$1"/>
 <wire x1="40.64" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
@@ -4968,6 +5090,10 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="38.1" y1="27.94" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="E1" gate="G$1" pin="P$1"/>
 <wire x1="40.64" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="F1" gate="G$1" pin="P$1"/>
+<wire x1="40.64" y1="-2.54" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G$1" pin="P$1"/>
+<wire x1="40.64" y1="-17.78" x2="38.1" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="A1" gate="G$1" pin="P$1"/>
 <wire x1="40.64" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -4982,6 +5108,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="50.8" y1="58.42" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="43.18" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="27.94" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="12.7" x2="50.8" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="-2.54" x2="50.8" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="P$1"/>
 <wire x1="53.34" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
@@ -4989,6 +5117,10 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="50.8" y1="27.94" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="E2" gate="G$1" pin="P$1"/>
 <wire x1="53.34" y1="12.7" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="F2" gate="G$1" pin="P$1"/>
+<wire x1="53.34" y1="-2.54" x2="50.8" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="G2" gate="G$1" pin="P$1"/>
+<wire x1="53.34" y1="-17.78" x2="50.8" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="A2" gate="G$1" pin="P$1"/>
 <wire x1="53.34" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -5003,6 +5135,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="63.5" y1="58.42" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="43.18" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="27.94" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="12.7" x2="63.5" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-2.54" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="P$1"/>
 <wire x1="66.04" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
@@ -5010,6 +5144,10 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="63.5" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="E3" gate="G$1" pin="P$1"/>
 <wire x1="66.04" y1="12.7" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="F3" gate="G$1" pin="P$1"/>
+<wire x1="66.04" y1="-2.54" x2="63.5" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="G3" gate="G$1" pin="P$1"/>
+<wire x1="66.04" y1="-17.78" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="A3" gate="G$1" pin="P$1"/>
 <wire x1="66.04" y1="73.66" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -5023,16 +5161,19 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="76.2" y1="73.66" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="58.42" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="43.18" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="27.94" x2="76.2" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-2.54" x2="76.2" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="P$1"/>
 <wire x1="78.74" y1="43.18" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="P$1"/>
 <wire x1="76.2" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="F4" gate="G$1" pin="P$1"/>
+<wire x1="78.74" y1="-2.54" x2="76.2" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="G4" gate="G$1" pin="P$1"/>
+<wire x1="78.74" y1="-17.78" x2="76.2" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="A4" gate="G$1" pin="P$1"/>
 <wire x1="78.74" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="27.94" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="E4" gate="G$1" pin="P$1"/>
-<wire x1="76.2" y1="12.7" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -5045,6 +5186,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="88.9" y1="58.42" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="43.18" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="27.94" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="12.7" x2="88.9" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-2.54" x2="88.9" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="P$1"/>
 <wire x1="91.44" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
@@ -5052,6 +5195,10 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="88.9" y1="27.94" x2="91.44" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="E5" gate="G$1" pin="P$1"/>
 <wire x1="91.44" y1="12.7" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="F5" gate="G$1" pin="P$1"/>
+<wire x1="91.44" y1="-2.54" x2="88.9" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="G5" gate="G$1" pin="P$1"/>
+<wire x1="91.44" y1="-17.78" x2="88.9" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="A5" gate="G$1" pin="P$1"/>
 <wire x1="91.44" y1="73.66" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -5066,6 +5213,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="101.6" y1="58.42" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="43.18" x2="101.6" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="27.94" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="12.7" x2="101.6" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-2.54" x2="101.6" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="58.42" x2="104.14" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="P$1"/>
 <wire x1="104.14" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
@@ -5073,6 +5222,10 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="101.6" y1="27.94" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="E6" gate="G$1" pin="P$1"/>
 <wire x1="104.14" y1="12.7" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="F6" gate="G$1" pin="P$1"/>
+<wire x1="104.14" y1="-2.54" x2="101.6" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="G6" gate="G$1" pin="P$1"/>
+<wire x1="104.14" y1="-17.78" x2="101.6" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="A6" gate="G$1" pin="P$1"/>
 <wire x1="104.14" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -5087,6 +5240,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="114.3" y1="58.42" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="43.18" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="27.94" x2="114.3" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="12.7" x2="114.3" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-2.54" x2="114.3" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="58.42" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="P$1"/>
 <wire x1="116.84" y1="43.18" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
@@ -5094,6 +5249,10 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="114.3" y1="27.94" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="E7" gate="G$1" pin="P$1"/>
 <wire x1="116.84" y1="12.7" x2="114.3" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="F7" gate="G$1" pin="P$1"/>
+<wire x1="116.84" y1="-2.54" x2="114.3" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="G7" gate="G$1" pin="P$1"/>
+<wire x1="116.84" y1="-17.78" x2="114.3" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="A7" gate="G$1" pin="P$1"/>
 <wire x1="116.84" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -5108,6 +5267,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="127" y1="58.42" x2="127" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="127" y1="43.18" x2="127" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="127" y1="27.94" x2="127" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="127" y1="12.7" x2="127" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="127" y1="-2.54" x2="127" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="127" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="P$1"/>
 <wire x1="129.54" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
@@ -5115,6 +5276,10 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="127" y1="27.94" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="E8" gate="G$1" pin="P$1"/>
 <wire x1="129.54" y1="12.7" x2="127" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="F8" gate="G$1" pin="P$1"/>
+<wire x1="129.54" y1="-2.54" x2="127" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="G8" gate="G$1" pin="P$1"/>
+<wire x1="129.54" y1="-17.78" x2="127" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="A8" gate="G$1" pin="P$1"/>
 <wire x1="129.54" y1="73.66" x2="127" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -5129,6 +5294,8 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="139.7" y1="58.42" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="43.18" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="27.94" x2="139.7" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="12.7" x2="139.7" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="-2.54" x2="139.7" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="P$1"/>
 <wire x1="142.24" y1="43.18" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
@@ -5136,20 +5303,12 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="139.7" y1="27.94" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="E9" gate="G$1" pin="P$1"/>
 <wire x1="139.7" y1="12.7" x2="142.24" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="F9" gate="G$1" pin="P$1"/>
+<wire x1="142.24" y1="-2.54" x2="139.7" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="G9" gate="G$1" pin="P$1"/>
+<wire x1="142.24" y1="-17.78" x2="139.7" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="A9" gate="G$1" pin="P$1"/>
 <wire x1="142.24" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="ROW1"/>
-<wire x1="-48.26" y1="99.06" x2="-33.02" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$49" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="ROW0"/>
-<wire x1="-50.8" y1="101.6" x2="-33.02" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
