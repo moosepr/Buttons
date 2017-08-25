@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -125,7 +125,7 @@
 <layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Displayboard" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
@@ -168,15 +168,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="79" x2="85" y2="79" width="0.254" layer="20"/>
-<wire x1="85" y1="0" x2="0" y2="0" width="0.254" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="79" width="0.254" layer="20"/>
-<wire x1="85" y1="79" x2="85" y2="0" width="0.254" layer="20"/>
+<wire x1="2" y1="79" x2="83" y2="79" width="0.2" layer="20"/>
+<wire x1="83" y1="0" x2="2" y2="0" width="0.2" layer="20"/>
+<wire x1="0" y1="2" x2="0" y2="77" width="0.2" layer="20"/>
 <text x="5.969" y="37.846" size="3.81" layer="21" font="vector" rot="R90">#Pi0CKET</text>
 <text x="78.994" y="64.897" size="3.81" layer="21" font="vector" rot="SR270">#Pi0CKET</text>
 <text x="56.515" y="73.279" size="3.81" layer="22" font="vector" rot="SMR0">#Pi0CKET</text>
 <text x="56.388" y="1.905" size="3.81" layer="22" font="vector" rot="SMR0">#Pi0CKET</text>
-<text x="33.782" y="29.464" size="3.81" layer="21" font="vector">Clicker</text>
+<text x="50.927" y="30.734" size="3.81" layer="22" font="vector" rot="MR0">Clicker</text>
 <text x="1.27" y="68.961" size="1.4224" layer="21" font="vector">On/Off</text>
 <text x="77.216" y="70.231" size="1.4224" layer="21" font="vector">Status</text>
 <text x="7.874" y="27.559" size="1.27" layer="21" font="vector">q     w     e     r     t     y     u     i     o     p</text>
@@ -229,11 +228,24 @@ Charge/Protect
 Module for all
 your battery 
 management needs</text>
-<text x="43.434" y="47.117" size="0.6096" layer="21" font="vector" rot="MR0" align="center">dont forget the most important part!! The Pi0!!
+<text x="43.434" y="47.117" size="0.6096" layer="22" font="vector" rot="MR0" align="center">dont forget the most important part!! The Pi0!!
 needs SMD header pins, and make sure they are long enough so you can use hats if you want</text>
 <text x="42.291" y="22.733" size="3.81" layer="22" font="vector" rot="MR0" align="center">Add some battery here!!!
 Any 3.7v Li-Po should be 
 fine. The bigger the better</text>
+<text x="27.178" y="45.974" size="0.4064" layer="21" font="vector" rot="R90">Be careful with the solder. Go slow and steady</text>
+<text x="42.545" y="39.243" size="1.9304" layer="21" font="vector" align="center">ILI9341 - 2.8" - 18 pin - SPI - no touch
+SPI screen i hear you cry!!
+well dont knock it before you try it</text>
+<text x="76.2" y="34.925" size="1.9304" layer="16" rot="MR0">Need more info?
+https://hackaday.io/project/20937-pi0cket-clicker
+https://twitter.com/Pi0CKET
+moosepr@gmail.com</text>
+<wire x1="85" y1="77" x2="85" y2="2" width="0.2" layer="20"/>
+<wire x1="0" y1="2" x2="2" y2="0" width="0.2" layer="20" curve="90"/>
+<wire x1="85" y1="2" x2="83" y2="0" width="0.2" layer="20" curve="-90"/>
+<wire x1="83" y1="79" x2="85" y2="77" width="0.2" layer="20" curve="-90"/>
+<wire x1="0" y1="77" x2="2" y2="79" width="0.2" layer="20" curve="-90"/>
 </plain>
 <libraries>
 <library name="RPI-Zero">
@@ -3099,7 +3111,7 @@ design rules under a new name.</description>
 <element name="U$2" library="ili9341" package="ILI9341-2.8" value="ILI9341-2.8" x="42.5" y="54"/>
 <element name="U1" library="Texas Instruments_By_element14_Batch_1" package="QFN50P400X400X80-25N" value="TCA8418RTWR" x="12.834315625" y="64.982840625" smashed="yes" rot="MR0">
 <attribute name="MPN" value="TCA8418RTWR" x="12.834315625" y="64.982840625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="10.192715625" y="62.315840625" size="2.0828" layer="26" ratio="10" rot="SMR0"/>
+<attribute name="NAME" x="10.065715625" y="62.696840625" size="0.6096" layer="26" ratio="10" rot="SMR0"/>
 <attribute name="OC_FARNELL" value="-" x="12.834315625" y="64.982840625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="50R7921" x="12.834315625" y="64.982840625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PACKAGE" value="QFN-24" x="12.834315625" y="64.982840625" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3161,15 +3173,23 @@ design rules under a new name.</description>
 <element name="U2" library="SparkFun-DigitalIC" package="SO08-EIAJ" value="Tiny85-20-SMT" x="42.3" y="69.2" rot="MR90">
 <attribute name="PROD_ID" value="IC-09092" x="70.7" y="33" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="T1" library="zetex" package="SOT-23" value="SI2301" x="44.6" y="64.5" rot="MR270">
+<element name="T1" library="zetex" package="SOT-23" value="SI2301" x="44.6" y="64.5" smashed="yes" rot="MR270">
 <attribute name="MF" value="" x="13.8" y="84.1" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="" x="13.8" y="84.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="41.298" y="65.897" size="1.27" layer="26" ratio="10" rot="MR270"/>
 <attribute name="OC_FARNELL" value="unknown" x="13.8" y="84.1" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="13.8" y="84.1" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="44.854" y="65.262" size="0.4064" layer="28" ratio="10" rot="MR270"/>
 </element>
 <element name="R2" library="SparkFun-Passives" package="0603-RES" value="100K" x="40.5" y="64.3" rot="MR270"/>
-<element name="C10" library="rcl" package="C0603K" value="100nF" x="45.7" y="60.1" rot="MR90"/>
-<element name="C11" library="resistor" package="C0603K" value="10uF" x="47.5" y="60.1" rot="MR270"/>
+<element name="C10" library="rcl" package="C0603K" value="100nF" x="45.7" y="60.1" smashed="yes" rot="MR90">
+<attribute name="NAME" x="45.207" y="55.998" size="1.016" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="43.923" y="55.363" size="1.016" layer="28" rot="MR90"/>
+</element>
+<element name="C11" library="resistor" package="C0603K" value="10uF" x="47.5" y="60.1" smashed="yes" rot="MR270">
+<attribute name="NAME" x="47.993" y="58.487" size="1.016" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="49.277" y="58.868" size="1.016" layer="28" rot="MR270"/>
+</element>
 <element name="D10" library="SparkFun-LED" package="WS2812B" value="" x="81" y="75">
 <attribute name="PROD_ID" value="DIO-12503" x="75.6" y="95" size="1.778" layer="27" display="off"/>
 </element>
@@ -4102,11 +4122,10 @@ design rules under a new name.</description>
 <wire x1="81.9" y1="29.5" x2="82.6" y2="30.2" width="0.1524" layer="1"/>
 <wire x1="82.6" y1="30.2" x2="82.7" y2="30.2" width="0.1524" layer="1"/>
 <wire x1="82.7" y1="30.2" x2="84.4" y2="28.7" width="0.1524" layer="1"/>
-<wire x1="84.4" y1="28.7" x2="84.4" y2="0.6" width="0.1524" layer="1"/>
-<wire x1="84.4" y1="0.6" x2="0.9" y2="0.6" width="0.1524" layer="1"/>
-<wire x1="0.9" y1="0.6" x2="0.6" y2="0.9" width="0.1524" layer="1"/>
-<wire x1="0.6" y1="0.9" x2="0.6" y2="31.2" width="0.1524" layer="1"/>
-<wire x1="0.6" y1="31.2" x2="1.5" y2="32" width="0.1524" layer="1"/>
+<wire x1="84.4" y1="28.7" x2="84.4" y2="3.4" width="0.1524" layer="1"/>
+<wire x1="0.6" y1="3.4" x2="0.6" y2="3.3" width="0.1524" layer="1"/>
+<wire x1="0.6" y1="31.2" x2="0.6" y2="3.4" width="0.1524" layer="1"/>
+<wire x1="1.5" y1="32" x2="0.6" y2="31.2" width="0.1524" layer="1"/>
 <wire x1="78.5" y1="31.2" x2="80.1" y2="29.6" width="0.1524" layer="1"/>
 <contactref element="U1" pad="8"/>
 <wire x1="78.3" y1="31.8" x2="78.5" y2="32" width="0.1524" layer="1"/>
@@ -4123,6 +4142,9 @@ design rules under a new name.</description>
 <wire x1="5" y1="41.8" x2="12.4" y2="34.4" width="0.1524" layer="16"/>
 <wire x1="37.4" y1="34.4" x2="39.5" y2="36.5" width="0.1524" layer="16"/>
 <wire x1="12.4" y1="34.4" x2="37.4" y2="34.4" width="0.1524" layer="16"/>
+<wire x1="3.3" y1="0.6" x2="0.6" y2="3.3" width="0.1524" layer="1" curve="-90"/>
+<wire x1="84.4" y1="3.4" x2="81.6" y2="0.6" width="0.1524" layer="1" curve="-90"/>
+<wire x1="81.6" y1="0.6" x2="3.3" y2="0.6" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$38">
 <contactref element="U1" pad="18"/>
