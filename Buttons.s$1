@@ -11507,7 +11507,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="Texas Instruments_By_element14_Batch_1" deviceset="TCA8418RTWR" device=""/>
 <part name="U$1" library="03962A" deviceset="03962A" device=""/>
-<part name="CN1" library="adafruit" deviceset="JST_2PIN" device="-SMT-RA"/>
+<part name="BAT" library="adafruit" deviceset="JST_2PIN" device="-SMT-RA"/>
 <part name="A1" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
 <part name="A2" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
 <part name="A3" library="5mmSNAP" deviceset="5MMSNAP" device=""/>
@@ -11588,7 +11588,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND9" gate="1" x="180.34" y="182.88" rot="R90"/>
 <instance part="U1" gate="A" x="-15.24" y="99.06"/>
 <instance part="U$1" gate="G$1" x="195.58" y="220.98" rot="R180"/>
-<instance part="CN1" gate="G$1" x="175.26" y="218.44"/>
+<instance part="BAT" gate="G$1" x="175.26" y="218.44"/>
 <instance part="A1" gate="G$1" x="43.18" y="78.74"/>
 <instance part="A2" gate="G$1" x="55.88" y="78.74"/>
 <instance part="A3" gate="G$1" x="68.58" y="78.74"/>
@@ -12304,7 +12304,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <net name="N$36" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="B+"/>
-<pinref part="CN1" gate="G$1" pin="2"/>
+<pinref part="BAT" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="218.44" x2="177.8" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="218.44" x2="172.72" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="213.36" x2="177.8" y2="213.36" width="0.1524" layer="91"/>
@@ -12313,7 +12313,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="CN1" gate="G$1" pin="1"/>
+<pinref part="BAT" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="220.98" x2="172.72" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="B-"/>
 <wire x1="182.88" y1="223.52" x2="177.8" y2="223.52" width="0.1524" layer="91"/>
