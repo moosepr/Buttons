@@ -12216,7 +12216,7 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <instance part="E8" gate="G$1" x="132.08" y="17.78"/>
 <instance part="E9" gate="G$1" x="144.78" y="17.78"/>
 <instance part="E0" gate="G$1" x="30.48" y="17.78"/>
-<instance part="GND1" gate="1" x="154.94" y="165.1" rot="R90"/>
+<instance part="GND1" gate="1" x="223.52" y="157.48" rot="R90"/>
 <instance part="GND2" gate="1" x="111.76" y="170.18" rot="R270"/>
 <instance part="T1" gate="A" x="96.52" y="185.42" rot="R180"/>
 <instance part="R2" gate="G$1" x="104.14" y="182.88" rot="R90"/>
@@ -12233,9 +12233,9 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <instance part="R5" gate="G$1" x="-40.64" y="109.22"/>
 <instance part="GND7" gate="1" x="-2.54" y="175.26" rot="R270"/>
 <instance part="U3" gate="A" x="127" y="157.48"/>
-<instance part="S1" gate="G$1" x="142.24" y="165.1" smashed="yes">
-<attribute name="NAME" x="142.24" y="166.624" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="165.1" y="172.212" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="S1" gate="G$1" x="213.36" y="157.48" smashed="yes">
+<attribute name="NAME" x="213.36" y="159.004" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="236.22" y="164.592" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND11" gate="1" x="213.36" y="129.54" rot="R90"/>
 <instance part="P+3" gate="VCC" x="205.74" y="101.6"/>
@@ -12313,7 +12313,7 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="147.32" y1="165.1" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="157.48" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="GND"/>
@@ -12886,11 +12886,6 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <label x="-38.1" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PI1" gate="G$1" pin="3V3@2"/>
-<wire x1="12.7" y1="165.1" x2="2.54" y2="165.1" width="0.1524" layer="91"/>
-<label x="2.54" y="165.1" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="PI1" gate="G$1" pin="3V3@1"/>
 <wire x1="12.7" y1="185.42" x2="7.62" y2="185.42" width="0.1524" layer="91"/>
 <label x="7.62" y="185.42" size="1.778" layer="95" rot="R180"/>
@@ -12928,16 +12923,6 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <wire x1="-48.26" y1="165.1" x2="-48.26" y2="160.02" width="0.1524" layer="91"/>
 <label x="-48.26" y="160.02" size="1.778" layer="95" rot="R270"/>
 </segment>
-<segment>
-<wire x1="203.2" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
-<label x="208.28" y="91.44" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="4"/>
-</segment>
-<segment>
-<pinref part="U3" gate="A" pin="(PCINT3/MOSI)_PB3"/>
-<wire x1="129.54" y1="121.92" x2="124.46" y2="121.92" width="0.1524" layer="91"/>
-<label x="124.46" y="121.92" size="1.778" layer="95" rot="R180"/>
-</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -12950,16 +12935,6 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <wire x1="-45.72" y1="165.1" x2="-45.72" y2="152.4" width="0.1524" layer="91"/>
 <label x="-45.72" y="152.4" size="1.778" layer="95" rot="R270"/>
 </segment>
-<segment>
-<wire x1="185.42" y1="93.98" x2="172.72" y2="93.98" width="0.1524" layer="91"/>
-<label x="172.72" y="93.98" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="U3" gate="A" pin="(PCINT4/MISO)_PB4"/>
-<wire x1="129.54" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
-<label x="124.46" y="119.38" size="1.778" layer="95" rot="R180"/>
-</segment>
 </net>
 <net name="RST" class="0">
 <segment>
@@ -12971,16 +12946,6 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <pinref part="PI1" gate="G$1" pin="GEN/6GPIO25"/>
 <wire x1="60.96" y1="160.02" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
 <label x="63.5" y="160.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="185.42" y1="88.9" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
-<label x="172.72" y="88.9" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="5"/>
-</segment>
-<segment>
-<pinref part="U3" gate="A" pin="PC6_(RESET/PCINT14)"/>
-<wire x1="205.74" y1="149.86" x2="210.82" y2="149.86" width="0.1524" layer="91"/>
-<label x="210.82" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DCX" class="0">
@@ -12995,14 +12960,6 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <label x="63.5" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U3" gate="A" pin="(PCINT19/INT1)_PD3"/>
-<wire x1="129.54" y1="157.48" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="165.1" x2="137.16" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="D10" gate="G$1" pin="DIN"/>
@@ -13012,11 +12969,16 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <wire x1="106.68" y1="144.78" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SCK" class="0">
+<net name="ISP-SCK" class="0">
 <segment>
 <wire x1="172.72" y1="91.44" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
 <label x="172.72" y="91.44" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="PB5_(SCK/PCINT5)"/>
+<wire x1="205.74" y1="119.38" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
+<label x="218.44" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="1">
@@ -13052,6 +13014,49 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <pinref part="U3" gate="A" pin="AVCC"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="210.82" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ISP-MOSI" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="(PCINT3/MOSI)_PB3"/>
+<wire x1="129.54" y1="121.92" x2="124.46" y2="121.92" width="0.1524" layer="91"/>
+<label x="124.46" y="121.92" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<wire x1="203.2" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
+<label x="208.28" y="91.44" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="ISP-MISO" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="(PCINT4/MISO)_PB4"/>
+<wire x1="129.54" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
+<label x="124.46" y="119.38" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<wire x1="185.42" y1="93.98" x2="172.72" y2="93.98" width="0.1524" layer="91"/>
+<label x="172.72" y="93.98" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="ISP-RST" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="PC6_(RESET/PCINT14)"/>
+<wire x1="205.74" y1="149.86" x2="210.82" y2="149.86" width="0.1524" layer="91"/>
+<label x="210.82" y="149.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="185.42" y1="88.9" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
+<label x="172.72" y="88.9" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="S1" gate="G$1" pin="1"/>
+<pinref part="U3" gate="A" pin="PD2_(INT0/PCINT18)"/>
+<wire x1="208.28" y1="157.48" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
